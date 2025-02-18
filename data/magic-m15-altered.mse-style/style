@@ -2015,7 +2015,7 @@ extra card style:
 		visible: {use_evobar()}
 	alias bar:
 		left: 38
-		top: { if uses_clear_frame() or clear_tops() then 59 else 57}
+		top: { if is_map() then 61 else if uses_clear_frame() or clear_tops() then 59 else 57}
 		width: 298
 		height: 21
 		z index: 880
