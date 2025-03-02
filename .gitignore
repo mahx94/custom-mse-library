@@ -1,9 +1,9 @@
 **/.DS_Store
 
 # ignore everything except the main files so the user can put whatever other files in here
-*.mse-set
+#*.mse-set
 *.mse-set.bak
-/sets/*
+#/sets/*
 /files/*
 /set symbols/*
 
